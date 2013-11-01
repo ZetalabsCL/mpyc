@@ -8,13 +8,13 @@ var Contact = function () {
 			$(document).ready(function(){
 			  map = new GMaps({
 				div: '#map',
-				lat: -13.004333,
-				lng: -38.494333
+				lat: -33.56319,
+				lng: -70.56180
 			  });
 			   var marker = map.addMarker({
-		            lat: -13.004333,
-					lng: -38.494333,
-		            title: 'Loop, Inc.'
+		            lat: -33.56319,
+					lng: -70.56180,
+		            title: 'Moviendo Personas y Carga'
 		        });
 			});
         }

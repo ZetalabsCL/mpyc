@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="es" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="es" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="es" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->
+<head>
+    <title>MPYC :: Moviendo Personas y Carga ::</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Reinaldo Zurita, Zetalabs Chile">
+
+    <!-- CSS Global Compulsory-->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/headers/header1.css">
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="assets/css/style_responsive.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="assets/plugins/parallax-slider/css/parallax-slider.css" type="text/css">
+    <!-- CSS Theme -->
+    <link rel="stylesheet" href="assets/css/themes/default.css" id="style_color">
+    <link rel="stylesheet" href="assets/css/themes/headers/default.css" id="style_color-header-1">
+</head>
+
+<body>
+
+<!--=== Top ===-->
+<div class="top">
+    <!-- <div class="container">
+        <ul class="loginbar pull-right">
+            <li><i class="icon-globe"></i><a>Languages <i class="icon-sort-up"></i></a>
+                <ul class="nav-list">
+                    <li class="active"><a href="#">English</a> <i class="icon-ok"></i></li>
+                    <li><a href="#">Spanish</a></li>
+                    <li><a href="#">Russian</a></li>
+                    <li><a href="#">German</a></li>
+                </ul>
+            </li>
+            <li class="devider">&nbsp;</li>
+            <li><a href="page_faq.html" class="login-btn">Help</a></li>
+            <li class="devider">&nbsp;</li>
+            <li><a href="page_login.html" class="login-btn">Login</a></li>
+        </ul>
+    </div> -->
+</div><!--/top-->
+<!--=== End Top ===-->
+
+<!--=== Header ===-->
+<div class="header">
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html"><img id="logo-header" src="assets/img/logo1-default.png" alt="Logo"></a>
+        </div><!-- /logo -->
+
+        <!-- Menu -->
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a><!-- /nav-collapse -->
+                <div class="nav-collapse collapse">
+                    <ul class="nav top-2">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="active"><a href="index.html">Inicio</a></li></ul>
+                            <b class="caret-out"></b>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">CLIENTES
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                
+                                <li><a href="clientes.html">Nuestros Clientes</a></li>
+                            </ul>
+                            <b class="caret-out"></b>
+                        </li>
+                        <li class="active">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown">FAENAS
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="faenas.html">Faenas en Ejecucion</a></li>
+                            </ul>
+                            <b class="caret-out"></b>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">RSE
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="rse.html">Responsabilidad Social</a></li>
+                            </ul>
+                            <b class="caret-out"></b>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacto
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="contacto.html">Contactanos</a></li>
+                            </ul>
+                            <b class="caret-out"></b>
+                        </li>
+                        <li><a class="search"><i class="icon-search search-btn"></i></a></li>
+                    </ul>
+                    <div class="search-open">
+                        <div class="input-append">
+                            <form>
+                                <input type="text" class="span3" placeholder="Buscar" />
+                                <button type="submit" class="btn-u">Ir</button>
+                            </form>
+                        </div>
+                    </div>
+                </div><!-- /nav-collapse -->
+            </div><!-- /navbar-inner -->
+        </div><!-- /navbar -->
+    </div><!-- /container -->
+</div><!--/header -->
+<!--=== End Header ===-->
+<!--=== Breadcrumbs ===-->
+<div class="breadcrumbs margin-bottom-40">
+	<div class="container">
+        <h1 class="color-green pull-left">Faenas</h1>
+        <ul class="pull-right breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li class="active">Faenas</li>
+        </ul>
+    </div><!--/container-->
+</div><!--/breadcrumbs-->
+<!--=== End Breadcrumbs ===-->
+
+<!--=== Content Part ===-->
+<div class="container portfolio-item"> 	
+	<div class="row-fluid margin-bottom-20"> 
+		<!-- Carousel -->
+        <div class="span7">
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/carousel/5.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>First Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/4.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Second Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/3.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Third Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-arrow">
+                    <a data-slide="prev" href="#myCarousel" class="left carousel-control"><i class="icon-angle-left"></i></a>
+                    <a data-slide="next" href="#myCarousel" class="right carousel-control"><i class="icon-angle-right"></i></a>
+                </div>
+            </div>
+        </div><!--/span7-->
+        <!-- //End Tabs and Carousel -->
+        
+        <div class="span5">
+        	<h3>Cacerones</h3>
+            <h5> Copiapo - Region de Atacama</h5>
+            <p>El proyecto Caserones se emplaza en el Valle de Copiapó a 162 kM. al sureste de Tierra Amarilla, a 15 kM. de la frontera con Argentina y a una altura máxima de 4.600 m.s.n.m., en el cerro que le da su nombre.</p>
+<p>Caserones es un depósito de mineral pórfido de cobre-molibdeno que será explotado a rajo abierto, con un proceso combinado de producción de concentrados de cobre -a partir de una planta de flotación convencional que procesará 105.000 ton. de mineral diario- y un proceso de lixiviación y SX-EW, que producirá 30.000 ton. de cátodos anual.</p>
+        </div>
+    </div><!--/row-fluid-->
+
+<!-- Faena 2 -->
+<div class="row-fluid margin-bottom-20"> 
+		<!-- Carousel -->
+        <div class="span7">
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/carousel/5.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>First Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/4.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Second Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/3.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Third Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-arrow">
+                    <a data-slide="prev" href="#myCarousel" class="left carousel-control"><i class="icon-angle-left"></i></a>
+                    <a data-slide="next" href="#myCarousel" class="right carousel-control"><i class="icon-angle-right"></i></a>
+                </div>
+            </div>
+        </div><!--/span7-->
+        <!-- //End Tabs and Carousel -->
+        
+        <div class="span5">
+       	  <h3>Alto Maipo</h3>
+            <h5> San José de Maipo - Región Metropolitana</h5>
+            <p>El Proyecto Hidroeléctrico Alto Maipo (PHAM) comprende la construcción de las centrales hidroeléctricas de pasada Alfalfal II y Las Lajas, dispuestas en serie en el sector alto del Río Maipo, las que en conjunto aportarán al Sistema Interconectado Central (SIC) una potencia máxima de 531 MW. El proyecto captará parte de las aguas provenientes de la zona norte del Río Volcán, del Río Yeso, de las aguas turbinadas por la actual central Alfalfal y de parte de las aguas provenientes de la cuenca intermedia del Río Colorado</p>
+            <ul class="unstyled">
+            	<li><i class="icon-tags color-green"></i> FLOTA EN ARRIENDO: Camiones aljibe, Camiones repartidores de combustible y Camiones rampa. Buses, Taxibuses y Minibuses. Camionetas y Retroexcavadoras.</li>
+            </ul>
+        </div>
+    </div><!--/row-fluid-->
+    
+    
+    <!-- Faena 3 -->
+<div class="row-fluid margin-bottom-20"> 
+		<!-- Carousel -->
+        <div class="span7">
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/carousel/5.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>First Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/4.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Second Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/carousel/3.jpg" alt="">
+                        <div class="carousel-caption">
+                            <h4>Third Thumbnail label</h4>
+                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-arrow">
+                    <a data-slide="prev" href="#myCarousel" class="left carousel-control"><i class="icon-angle-left"></i></a>
+                    <a data-slide="next" href="#myCarousel" class="right carousel-control"><i class="icon-angle-right"></i></a>
+                </div>
+            </div>
+        </div><!--/span7-->
+        <!-- //End Tabs and Carousel -->
+        
+        <div class="span5">
+       	  <h3>Pascua-Lama</h3>
+            <h5> Huasco - Region de Atacama</h5>
+            <p>El proyecto Pascua-Lama considera la explotación a rajo abierto de reservas minerales de oro y plata desde un yacimiento principal, ubicado sobre la frontera argentino-chilena y desde otro menor denominado Penélope, ubicado en Argentina a 2,5 kM. al sureste del primero.</p>
+​
+<p>El área del proyecto se ubica entre los 3.800 y 5.200 metros sobre el nivel del mar. Por el lado argentino se encuentra en el departamento de Iglesia, provincia de San Juan y por el lado chileno está localizado en la cabecera de la cuenca del río El Estrecho, en la comuna de Alto del Carmen, provincia del Huasco, región de Atacama.</p>
+            
+        </div>
+    </div><!--/row-fluid-->
+
+
+	           
+</div><!--/container-->	 	
+<!--=== End Content Part ===-->
+
+<!--=== Footer ===-->
+<div class="footer">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span4">
+                <!-- About -->
+		        <div class="headline">
+		          <h3>Nosotros</h3></div>
+				<p class="margin-bottom-25">Expertos en gestion empresarial y manejo de obras.</p>
+
+	            <!-- Monthly Newsletter -->
+		        <div class="headline">
+		          <h3>Noticias</h3></div>
+				<p>Enterate de nuestras noticias!</p>
+				<form class="form-inline">
+					<div class="input-append">
+						<input type="text" placeholder="Email Address" class="input-medium">
+						<button class="btn-u">Suscribirse</button>
+					</div>
+				</form>
+			</div><!--/span4-->
+
+			<div class="span4">
+                <div class="posts">
+                    <div class="headline">
+                      <h3>Twitter</h3></div>
+                    <dl class="dl-horizontal">
+                        <dt><a href="#"><img src="assets/img/sliders/elastislide/6.jpg" alt="" /></a></dt>
+                        <dd>
+                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aut, harum alias minus aliquid ea cum dolore sint a totam aliquam molestias in quidem.</a></p>
+                        </dd>
+                    </dl>
+                    <dl class="dl-horizontal">
+                    <dt><a href="#"><img src="assets/img/sliders/elastislide/10.jpg" alt="" /></a></dt>
+                        <dd>
+                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, doloremque, quidem, eaque, neque ullam facilis maiores assumenda corporis minima a.</a></p>
+                        </dd>
+                    </dl>
+                    <dl class="dl-horizontal">
+                    <dt><a href="#"><img src="assets/img/sliders/elastislide/11.jpg" alt="" /></a></dt>
+                        <dd>
+                            <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, qui, nihil vero velit aperiam omnis cupiditate praesentium quibusdam. </a></p>
+                        </dd>
+                    </dl>
+                </div>
+			</div><!--/span4-->
+
+			<div class="span4">
+	            <!-- Monthly Newsletter -->
+		        <div class="headline">
+		          <h3>Contactanos</h3></div>
+                <address>
+					25, Lorem Lis Street, Orange <br />
+					California, US <br />
+					Phone: 800 123 3456 <br />
+					Fax: 800 123 3456 <br />
+					Email: <a href="mailto:info@anybiz.com" class="">info@anybiz.com</a>
+                </address>
+
+                <!-- Stay Connected -->
+		        <div class="headline">
+		          <h3>Buscanos</h3></div>
+                <ul class="social-icons">
+                    <li><a href="#" data-original-title="Feed" class="social_rss"></a></li>
+                    <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
+                    <li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
+                    <li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>
+                    <li><a href="#" data-original-title="Pinterest" class="social_pintrest"></a></li>
+                    <li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                    <li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>
+                </ul>
+			</div><!--/span4-->
+		</div><!--/row-fluid-->
+	</div><!--/container-->
+</div><!--/footer-->
+<!--=== End Footer ===-->
+
+<!--=== Copyright ===-->
+<div class="copyright">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span8">
+	            <p>2013 &copy; Moviendo Personas y Carga. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+			</div>
+			<div class="span4">
+				<a href="index.html"><img id="logo-footer" src="assets/img/logo2-default.png" class="pull-right" alt="" /></a>
+			</div>
+		</div><!--/row-fluid-->
+	</div><!--/container-->
+</div><!--/copyright-->
+<!--=== End Copyright ===-->
+
+<!-- JS Global Compulsory -->
+<script type="text/javascript" src="assets/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<!-- JS Implementing Plugins -->
+<script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/modernizr.js"></script>
+<script type="text/javascript" src="assets/plugins/parallax-slider/js/jquery.cslider.js"></script>
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+<!-- JS Page Level -->
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/pages/index.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        App.initSliders();
+        Index.initParallaxSlider();
+    });
+</script>
+<!--[if lt IE 9]>
+    <script src="assets/js/respond.js"></script>
+<![endif]-->
+<script type="text/javascript">
+  // var _gaq = _gaq || [];
+  // _gaq.push(['_setAccount', 'UA-29166220-1']);
+  // _gaq.push(['_setDomainName', 'htmlstream.com']);
+  // _gaq.push(['_trackPageview']);
+
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
+</script>
+</body>
+</html> 
