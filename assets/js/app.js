@@ -40,7 +40,7 @@ var App = function () {
         }); //move to top navigator
     }
 
-    function handleSearch() {    
+    function handleSearch() {
         jQuery('.search').click(function () {
             if(jQuery('.search-btn').hasClass('icon-search')){
                 jQuery('.search-open').fadeIn(500);
@@ -50,41 +50,8 @@ var App = function () {
                 jQuery('.search-open').fadeOut(500);
                 jQuery('.search-btn').addClass('icon-search');
                 jQuery('.search-btn').removeClass('icon-remove');
-            }   
-        }); 
-    }
-
-    function handleSwitcher() {    
-        var panel = $('.style-switcher');
-
-        $('.style-switcher-btn').click(function () {
-            $('.style-switcher').show();
-        });
-
-        $('.theme-close').click(function () {
-            $('.style-switcher').hide();
-        });
-        
-        $('li', panel).click(function () {
-            var color = $(this).attr("data-style");
-            var data_header = $(this).attr("data-header");
-            setColor(color, data_header);
-            $('.unstyled li', panel).removeClass("theme-active");
-            $(this).addClass("theme-active");
-        });
-
-        var setColor = function (color, data_header) {
-            $('#style_color').attr("href", "assets/css/themes/" + color + ".css");
-            if(data_header == 'light'){
-                $('#style_color-header-1').attr("href", "assets/css/themes/headers/header1-" + color + ".css");
-                $('#logo-header').attr("src", "assets/img/logo1-" + color + ".png");
-                $('#logo-footer').attr("src", "assets/img/logo2-" + color + ".png");
-            } else if(data_header == 'dark'){
-                $('#style_color-header-2').attr("href", "assets/css/themes/headers/header2-" + color + ".css");
-                $('#logo-header').attr("src", "assets/img/logo2-" + color + ".png");
-                $('#logo-footer').attr("src", "assets/img/logo2-" + color + ".png");
             }
-        }
+        });
     }
 
     return {
@@ -109,15 +76,15 @@ var App = function () {
                 directionNav: false,
                 move: 2
             });
-            
+
             $('#photo-flexslider').flexslider({
                 animation: "slide",
                 controlNav: false,
                 animationLoop: false,
                 itemWidth: 80,
                 itemMargin: 0
-            }); 
-            
+            });
+
             $('#testimonal_carousel').collapse({
                 toggle: false
             });
@@ -143,7 +110,7 @@ var App = function () {
                 maxSlides: 3,
                 slideWidth: 360,
                 slideMargin: 10
-            });            
+            });
         },
 
         initBxSlider1: function () {
@@ -152,7 +119,7 @@ var App = function () {
                 maxSlides: 4,
                 slideWidth: 360,
                 slideMargin: 10
-            });            
+            });
         }
 
     };
