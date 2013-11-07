@@ -60,7 +60,6 @@ var App = function () {
             handleIEFixes();
             handleMisc();
             handleSearch();
-            handleSwitcher();
         },
 
         initSliders: function () {
