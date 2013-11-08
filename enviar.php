@@ -14,7 +14,7 @@ $mensaje .= "Su e-mail es: " . $Email . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date("d/m/y \a \l\a\s H:i:s ");
 
-$para = 'reinaldo@zetalabs.cl';
+$para = 'contacto@moviendopersonasycarga.cl';
 $asunto = 'Contacto desde el formulario web de Moviendo Personas y Carga';
 
 if (filter_var($Email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
