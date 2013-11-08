@@ -21,7 +21,7 @@ if (filter_var($Email, FILTER_VALIDATE_EMAIL)) { // this line checks that we hav
 mail($para, $asunto, $mensaje, $header); //This method sends the mail.
 echo '<div style="color:green;font-size: 15px;font-weight: bolder;border: 2px solid green;">Tu mensaje fue enviado correctamente. Pronto nos contactaremos con usted!!"</div>'; // success message
 }else{
-echo '<div style="color:red;font-size: 15px;font-weight: bolder;border: 2px solid red;">Los datos del formulario estan incorrectos, revisalos y vuelve a intentarlo</div>";
+echo '<div style="color:red;font-size: 15px;font-weight: bolder;border: 2px solid red;">Los datos del formulario estan incorrectos, revisalos y vuelve a intentarlo</div>';
 }
 
 ?>
