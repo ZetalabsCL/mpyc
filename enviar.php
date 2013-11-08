@@ -1,7 +1,7 @@
 <?php
 
 $Nombre = $_POST['nombre'];
-$Email = $_POST['email'];
+$email = $_POST['email'];
 $celular = $_POST['fono'];
 
 $header = 'From: ' . $Email . " \r\n";
