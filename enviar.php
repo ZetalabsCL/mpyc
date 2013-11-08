@@ -19,9 +19,9 @@ $asunto = 'Contacto desde el formulario web de Moviendo Personas y Carga';
 
 if (filter_var($Email, FILTER_VALIDATE_EMAIL)) { // this line checks that we have a valid email address
 mail($para, $asunto, $mensaje, $header); //This method sends the mail.
-echo '<div style="color:green;font-size: 15px;font-weight: bolder;border: 2px solid green;">Tu mensaje fue enviado correctamente. Pronto nos contactaremos con usted!!"</div>'; // success message
+echo '<div style="color:green;font-size: 15px;font-weight: bolder;border: 2px solid green;text-align:center;">Tu mensaje fue enviado correctamente. Pronto nos contactaremos con usted!!"</div>'; // success message
 }else{
-echo '<div style="color:red;font-size: 15px;font-weight: bolder;border: 2px solid red;">Los datos del formulario estan incorrectos, revisalos y vuelve a intentarlo</div>';
+echo '<div style="color:red;font-size: 15px;font-weight: bolder;border: 2px solid red; text-align:center;">Los datos del formulario estan incorrectos, revisalos y vuelve a intentarlo</div>';
 }
 
 ?>
