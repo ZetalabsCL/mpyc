@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if IE 7]> <html lang="es" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="es" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="es" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->
 <head>
     <title>:: Moviendo Personas y Carga :: Contacto</title>
 
@@ -10,8 +10,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- @TODO: Agregar meta para seguimiento de Google -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Somos especialistas arriendo de vehiculos para obra y gestion de personal, traslado, movilizacion. Mas info:contacto@moviendopersonasycarga.cl">
+    <meta name="author" content="Reinaldo Zurita, Zetalabs Chile">
 
     <!-- CSS Global Compulsory-->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -121,17 +121,17 @@
             <div class="headline"><h3>Contactanos</h3></div>
             <p>Somos un equipo dinámico, flexible y de mente abierta dispuesta a trabajar duro para
 nuestros clientes. Si usted está interesado en trabajar con nosotros</p><br />
-            <form>
+            <form id="miformulario">
                 <label>Nombre</label>
-                <input type="text" class="span7 border-radius-none" />
+                <input type="text" name="nombre" class="span7 border-radius-none" />
                 <label>Email <span class="color-red">*</span></label>
-                <input type="text" class="span7 border-radius-none" />
+                <input type="text" name="email" class="span7 border-radius-none" />
                 <label>Telefono</label>
-                <input type="text" class="span7 border-radius-none" />
+                <input type="text" name="fono" class="span7 border-radius-none" />
 
                 <label>Mensaje</label>
-                <textarea rows="8" class="span10"></textarea>
-                <p><button type="submit" class="btn-u">Enviar Mensaje</button></p>
+                <textarea rows="8" class="span10" name="mensaje"></textarea>
+                <p><button type="submit" class="btn-u" id="submit">Enviar Mensaje</button></p>
             </form>
         </div><!--/span9-->
 
@@ -140,9 +140,9 @@ nuestros clientes. Si usted está interesado en trabajar con nosotros</p><br />
             <div class="headline"><h3>Contactanos</h3></div>
             <ul class="unstyled who margin-bottom-20">
                 <li><a href="#"><i class="icon-home"></i>Alava # 4345, Villa Plazuela Los Toros, Puente Alto, Santiago</a></li>
-                <li><a href="#"><i class="icon-envelope-alt"></i>contacto@moviendopersonasycarga.cl</a></li>
-                <li><a href="#"><i class="icon-phone-sign"></i>(+56 9) 7 710 7500</a></li>
-                <li><a href="#"><i class="icon-phone-sign"></i>(+56 2) 2 919 8380</a></li>
+                <li><a href="mailto:contacto@moviendopersonasycarga.cl?subject=Solicitud de Contacto"><i class="icon-envelope-alt"></i>contacto@moviendopersonasycarga.cl</a></li>
+                <li><a href="tel:+56977107500"><i class="icon-phone-sign"></i>(+56 9) 7 710 7500</a></li>
+                <li><a href="tel:+56229198380"><i class="icon-phone-sign"></i>(+56 2) 2 919 8380</a></li>
                 <li><a href="#"><i class="icon-globe"></i>http://www.moviendopersonasycarga.cl</a></li>
             </ul>
 
@@ -163,142 +163,32 @@ nuestros clientes. Si usted está interesado en trabajar con nosotros</p><br />
             </ul>
         </div><!--/span3-->
     </div><!--/row-fluid-->
-
-    <!-- Our Clients -->
-    <div id="clients-flexslider" class="flexslider home clients">
-        <div class="headline"><h3>Nuestros Clientes</h3></div>
-        <ul class="slides">
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/hp_grey.png" alt="" />
-                    <img src="assets/img/clients/hp.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/igneus_grey.png" alt="" />
-                    <img src="assets/img/clients/igneus.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/vadafone_grey.png" alt="" />
-                    <img src="assets/img/clients/vadafone.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/walmart_grey.png" alt="" />
-                    <img src="assets/img/clients/walmart.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/shell_grey.png" alt="" />
-                    <img src="assets/img/clients/shell.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/natural_grey.png" alt="" />
-                    <img src="assets/img/clients/natural.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/aztec_grey.png" alt="" />
-                    <img src="assets/img/clients/aztec.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/gamescast_grey.png" alt="" />
-                    <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/cisco_grey.png" alt="" />
-                    <img src="assets/img/clients/cisco.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/everyday_grey.png" alt="" />
-                    <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/cocacola_grey.png" alt="" />
-                    <img src="assets/img/clients/cocacola.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/spinworkx_grey.png" alt="" />
-                    <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/shell_grey.png" alt="" />
-                    <img src="assets/img/clients/shell.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/natural_grey.png" alt="" />
-                    <img src="assets/img/clients/natural.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/gamescast_grey.png" alt="" />
-                    <img src="assets/img/clients/gamescast.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/everyday_grey.png" alt="" />
-                    <img src="assets/img/clients/everyday.png" class="color-img" alt="" />
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img src="assets/img/clients/spinworkx_grey.png" alt="" />
-                    <img src="assets/img/clients/spinworkx.png" class="color-img" alt="" />
-                </a>
-            </li>
-        </ul>
-    </div><!--/flexslider-->
-    <!-- //End Our Clients -->
 </div><!--/container-->
 <!--=== End Content Part ===-->
 
 <!--=== Footer ===-->
 <div class="footer">
-	<div class="container">
-		<div class="row-fluid">
-			<div class="span4">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span4">
                 <!-- About -->
-		        <div class="headline">
-		          <h3>Nosotros</h3></div>
-				<p class="margin-bottom-25">Expertos en gestion empresarial y manejo de obras.</p>
+                <div class="headline">
+                  <h3>Nosotros</h3></div>
+                <p class="margin-bottom-25">Expertos en arriendo de vehiculos y transporte de carga. Orientados a la Mineria y Construccion</p>
 
-	            <!-- Monthly Newsletter -->
-		        <div class="headline">
-		          <h3>Noticias</h3></div>
-				<p>Enterate de nuestras noticias!</p>
-				<form class="form-inline">
-					<div class="input-append">
-						<input type="text" placeholder="Email Address" class="input-medium">
-						<button class="btn-u">Suscribirse</button>
-					</div>
-				</form>
-			</div><!--/span4-->
+                <!-- Monthly Newsletter -->
+                <div class="headline">
+                  <h3>Noticias</h3></div>
+                <p>Enterate de nuestras noticias!</p>
+                <form class="form-inline">
+                    <div class="input-append">
+                        <input type="text" placeholder="Su Email" class="input-medium">
+                        <button class="btn-u">Suscribirse</button>
+                    </div>
+                </form>
+            </div><!--/span4-->
 
-			<div class="span4">
+            <div class="span4">
                 <div class="posts">
                     <div class="headline">
                       <h3>Twitter</h3></div>
@@ -321,23 +211,23 @@ nuestros clientes. Si usted está interesado en trabajar con nosotros</p><br />
                         </dd>
                     </dl>
                 </div>
-			</div><!--/span4-->
+            </div><!--/span4-->
 
-			<div class="span4">
-	            <!-- Monthly Newsletter -->
-		        <div class="headline">
-		          <h3>Contactanos</h3></div>
+            <div class="span4">
+                <!-- Monthly Newsletter -->
+                <div class="headline">
+                  <h3>Contactanos</h3></div>
                 <address>
-					Alava # 4345, Villa Plazuela Los Toros<br />
-					Puente Alto, Santiago<br />
-					Fono: (+56 9) 7 710 7500 <br />
-					Fono: (+56 2) 2 919 8380<br />
-					Email: <a href="mailto:contacto@moviendopersonasycarga.cl" class="">contacto@moviendopersonasycarga.cl</a>
+                    Alava # 4345, Villa Plazuela Los Toros<br />
+                    Puente Alto, Santiago<br />
+                <a href="tel:+56977107500">Fono: (+56 9) 7 710 7500 </a><br />
+                <a href="tel:+56229198380">Fono: (+56 2) 2 919 8380</a><br />
+                    Email: <a href="mailto:contacto@moviendopersonasycarga.cl?subject=Solicitud de Contacto" class="">contacto@moviendopersonasycarga.cl</a>
                 </address>
 
                 <!-- Stay Connected -->
-		        <div class="headline">
-		          <h3>Buscanos</h3></div>
+                <div class="headline">
+                  <h3>Buscanos</h3></div>
                 <ul class="social-icons">
                     <li><a href="#" data-original-title="Feed" class="social_rss"></a></li>
                     <li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
@@ -347,9 +237,9 @@ nuestros clientes. Si usted está interesado en trabajar con nosotros</p><br />
                     <li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
                     <li><a href="#" data-original-title="Vimeo" class="social_vimeo"></a></li>
                 </ul>
-			</div><!--/span4-->
-		</div><!--/row-fluid-->
-	</div><!--/container-->
+            </div><!--/span4-->
+        </div><!--/row-fluid-->
+    </div><!--/container-->
 </div><!--/footer-->
 <!--=== End Footer ===-->
 
@@ -402,5 +292,17 @@ nuestros clientes. Si usted está interesado en trabajar con nosotros</p><br />
 //     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 //   })();
 // </script>
+<script>
+$(document).ready(function(){
+    $('#submit').click(function(){
+    $.post("enviar.php", $("#miformulario").serialize(),  function(response) {
+        $('#success').html(response);
+        //$('#success').hide('slow');
+    });
+return false;
+    });
+
+});
+</script>
 </body>
 </html>

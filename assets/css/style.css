@@ -1,4 +1,4 @@
-/*   
+/*
 Template Name: Unify - Responsive Bootstrap Template
 Description: Business, Corporate, Portfolio and Blog Theme.
 Version: 1.2
@@ -7,6 +7,9 @@ Website: http://htmlstream.com/preview/unify
 */
 
 /*Import Google Fonts*/
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -14,22 +17,22 @@ Website: http://htmlstream.com/preview/unify
 	border-radius:0 !important;
 }
 
-body { 
+body {
     padding:0;
-	color:#333; 
+	color:#333;
     font-size:13px;
     line-height:1.6;
 	background:#fff;
 }
 
-p, a, li { 
+p, a, li {
 	color:#555;
-	line-height:1.6; 
+	line-height:1.6;
 }
 
 a,
-a:focus, 
-a:hover, 
+a:focus,
+a:hover,
 a:active {
    outline:0 !important;
 }
@@ -39,13 +42,13 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-	color:#555; 
-	margin-top:5px; 
-	text-shadow:none; 
+	color:#555;
+	margin-top:5px;
+	text-shadow:none;
 	text-shadow:0 0 1px #f6f6f6;
-	font-weight:normal !important; 
-	font-family:'Open Sans', sans-serif; 
-} 
+	font-weight:normal !important;
+	font-family:'Open Sans', sans-serif;
+}
 h1 i, h2 i, h3 i, h4 i, h5 i {
 	margin-right:7px;
 }
@@ -53,7 +56,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 /*Block headline*/
 .heading {
 	padding:5px 20px 5px 20px;
-	border-left:4px solid #27c5f2; 
+	border-left:4px solid #27c5f2;
 }
 
 .headline {
@@ -61,7 +64,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 	margin:10px 0 25px 0;
 	border-bottom:1px dotted #e4e9f0;
 }
-.headline h3, 
+.headline h3,
 .headline h4 {
 	color:#585f69;
 	margin:0 0 -2px 0;
@@ -109,10 +112,10 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 	background:#68af28;
 	text-decoration:none;
 	box-shadow:0 0 5px #c0c2c1;
-} 
+}
 
 /*Service*/
-.service { 
+.service {
 	margin-bottom:10px;
 	padding:15px 15px 10px;
 }
@@ -132,7 +135,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 	float:left;
 	padding:10px;
 	color:#72c02c;
-	font-size:45px;  
+	font-size:45px;
 	text-align:center;
     -webkit-transition:all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
@@ -157,7 +160,7 @@ h1 i, h2 i, h3 i, h4 i, h5 i {
 
 /*Blockquote*/
 blockquote:hover {
-	border-left-color:#72c02c; 
+	border-left-color:#72c02c;
     -webkit-transition:all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
     -o-transition:all 0.4s ease-in-out;
@@ -169,10 +172,10 @@ blockquote:hover {
 	color:#566c8a;
 	font-size:16px;
 	background:#fcfcfc;
-	border-left:4px solid #94c564; 
+	border-left:4px solid #94c564;
 	font-family:'Open Sans', sans-serif;
 }
-.hero h1, .hero p { 
+.hero h1, .hero p {
 	text-shadow:1px 1px 0 #fff;
 }
 
@@ -322,7 +325,7 @@ blockquote:hover {
 /*Clients (Flexslider)*/
 .clients {
 	box-shadow:none !important;
-	margin-bottom:0 !important;    
+	margin-bottom:0 !important;
 }
 .clients li {
 	float:left;
@@ -340,7 +343,7 @@ blockquote:hover {
 	display:none;
 	position:absolute;
 }
-.clients li:hover img.color-img { 
+.clients li:hover img.color-img {
 	display:block;
 }
 .clients li img {
@@ -351,18 +354,18 @@ blockquote:hover {
 .clients li img:hover {
     filter:none;
 }
-.clients, 
+.clients,
 .flexslider.home {
     border:0px;
     overflow:hidden;
-    margin-top:10px;      
-    margin-bottom:30px;      
+    margin-top:10px;
+    margin-bottom:30px;
 	border-radius:0;
 	-moz-border-radius:0;
 	-webkit-border-radius:0;
 }
 
-.flexslider { 
+.flexslider {
 	margin-top:10px !important;
 }
 .flexslider .flex-direction-nav a {
@@ -385,22 +388,22 @@ blockquote:hover {
 	padding:20px 10px;
 	background:#585f69;
 	color:#dadada;
-} 
-.footer h1, 
-.footer h2, 
-.footer h3, 
-.footer h4, 
+}
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
 .footer h5 {
 	text-shadow:none;
-	font-weight:normal !important; 
-} 
+	font-weight:normal !important;
+}
 .footer p,
 .footer a {
 	font-size:14px;
-} 
+}
 .footer p {
 	color:#dadada;
-} 
+}
 .footer a {
 	color:#72c02c;
 }
@@ -411,7 +414,7 @@ blockquote:hover {
     -o-transition:all 0.4s ease-in-out;
     transition:all 0.4s ease-in-out;
 }
-.footer h4, 
+.footer h4,
 .footer h3 {
 	color:#e4e4e4;
 	background:none;
@@ -430,7 +433,7 @@ blockquote:hover {
 }
 .footer .blog-list li {
 	padding:0 0;
-	margin-bottom:7px; 
+	margin-bottom:7px;
 }
 .footer .blog-list li span {
 	color:#818488;
@@ -455,7 +458,7 @@ blockquote:hover {
 	font-size:12px;
 	padding:5px 10px;
 	background:#3e4753;
-	border-top:solid 1px #777;	
+	border-top:solid 1px #777;
 }
 .copyright p {
 	color:#dadada;
@@ -481,12 +484,12 @@ blockquote:hover {
 /*Home Page "Main page" (Default)
 ------------------------------------*/
 /*Thumbnail*/
-.thumbnail-style { 
-	padding:5px; 
-	border-radius:2px; 
+.thumbnail-style {
+	padding:5px;
+	border-radius:2px;
 }
-.thumbnail-style:hover { 
-	box-shadow:0 0 8px #ddd; 
+.thumbnail-style:hover {
+	box-shadow:0 0 8px #ddd;
     -webkit-transition:box-shadow 0.2s ease-in-out;
     -moz-transition:box-shadow 0.2s ease-in-out;
     -o-transition:box-shadow 0.2s ease-in-out;
@@ -512,7 +515,7 @@ blockquote:hover {
 	padding:1px 6px;
 	position:absolute;
 	background:#72c02c;
-	display:inline-block; 
+	display:inline-block;
 }
 .thumbnail-style a.btn-more:hover {
 	text-decoration:none;
@@ -539,7 +542,7 @@ blockquote:hover {
    -ms-transform: scale(1.2) rotate(2deg);
    transform: scale(1.2) rotate(2deg);
 }
- 
+
 /*Welcome Block*/
 .servive-block .span4 {
 	padding:20px 30px;
@@ -595,7 +598,7 @@ blockquote:hover {
 	padding:0 15px;
 }
 
-.breadcrumb { 
+.breadcrumb {
 	top:9px;
 	padding-right:0;
 	background:none;
@@ -613,78 +616,78 @@ blockquote:hover {
 /*Home Page "Options"
 ------------------------------------*/
 /*Accardion*/
-.acc-home a.accordion-toggle { 
-	color:#686868; 
-	font-size:18px; 
-	background:none; 
+.acc-home a.accordion-toggle {
+	color:#686868;
+	font-size:18px;
+	background:none;
 	padding:5px 15px;
 	background:#fafafa;
-	border-bottom:solid 1px #eee; 
+	border-bottom:solid 1px #eee;
 	text-decoration:none !important;
 }
 .acc-home a.active,
-.acc-home a.accordion-toggle:hover { 
-	color:#92d556; 
+.acc-home a.accordion-toggle:hover {
+	color:#92d556;
 	text-decoration:none !important;
 }
-.acc-home .accordion-group { 
+.acc-home .accordion-group {
 	border:none;
-	margin:0 !important; 
+	margin:0 !important;
 }
-.acc-home .accordion-heading, 
-.acc-home .accordion-inner { 
+.acc-home .accordion-heading,
+.acc-home .accordion-inner {
 	border:none;
 }
-.acc-home .accordion-inner { 
+.acc-home .accordion-inner {
 	border:none;
 	padding-top:3px;
 }
-.acc-home .collapse.in { 
+.acc-home .collapse.in {
 	margin-top:-1px;
 	margin-bottom:20px;
 	background:#fdfdfd;
-	border-bottom:solid 1px #72c02c; 
+	border-bottom:solid 1px #72c02c;
 }
 
 /*Posts*/
-.posts .dl-horizontal { 
+.posts .dl-horizontal {
 	margin-bottom:0;
 	padding:3px;
 	background:#fdfdfd;
 	border-right:solid 2px #eee;
 }
-.posts .dl-horizontal:hover { 
+.posts .dl-horizontal:hover {
 	border-right:solid 2px #72c02c;
 	-webkit-transition:all 0.4s ease-in-out;
 	-moz-transition:all 0.4s ease-in-out;
 	-o-transition:all 0.4s ease-in-out;
 	transition:all 0.4s ease-in-out;
 }
-.posts .dl-horizontal dt { 
-	width:56px; 
+.posts .dl-horizontal dt {
+	width:56px;
 	float:left;
 }
-.posts .dl-horizontal dt img { 
-	width:50px; 
-	height:50px; 
+.posts .dl-horizontal dt img {
+	width:50px;
+	height:50px;
 	border:solid 3px #eee;
 }
-.posts .dl-horizontal dd { 
+.posts .dl-horizontal dd {
 	margin-left:66px;
 }
-.posts .dl-horizontal dd p { 
+.posts .dl-horizontal dd p {
 	margin:0;
 }
 .posts .dl-horizontal a {
 	font-size:15px;
-	line-height:14px !important; 
+	line-height:14px !important;
 }
-.posts .dl-horizontal a:hover { 
-	color:#72c02c; 
+.posts .dl-horizontal a:hover {
+	color:#72c02c;
 	text-decoration:none;
 }
 .posts .dl-horizontal:hover dt img,
-.posts .dl-horizontal:hover dd a { 
+.posts .dl-horizontal:hover dd a {
 	color:#72c02c;
 	border-color:#72c02c !important;
 	-webkit-transition:all 0.4s ease-in-out;
@@ -702,62 +705,62 @@ blockquote:hover {
 }
 
 /*Carousel*/
-.carousel-control { 
-	color:#fff; 
-	border:none; 
+.carousel-control {
+	color:#fff;
+	border:none;
 	margin-top:0;
-	border-radius:2px; 
+	border-radius:2px;
 }
-.carousel-control:hover { 
+.carousel-control:hover {
 	opacity:1;
-	color:#72c02c; 
+	color:#72c02c;
 }
 
 /*Tabs*/
-.nav-tabs { 
+.nav-tabs {
 	background:none !important;
 }
-.nav-tabs a { 
+.nav-tabs a {
 	font-size:14px;
-	padding:5px 15px !important; 
+	padding:5px 15px !important;
 }
-.nav-tabs li.active a, 
+.nav-tabs li.active a,
 .nav-tabs li.active a:hover,
-.nav-tabs > .active > a, 
-.nav-tabs > .active > a:hover, 
-.nav-tabs > .active > a:focus { 
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
 	color:#fff;
-	border:none; 
-	background:#72c02c; 
-}
-.nav-tabs > li > a { 
 	border:none;
-	border-radius:0; 
+	background:#72c02c;
 }
-.nav-tabs > li > a:hover { 
-	color:#fff; 
-	background:#72c02c; 
+.nav-tabs > li > a {
+	border:none;
+	border-radius:0;
 }
-.tab-content { 
+.nav-tabs > li > a:hover {
+	color:#fff;
+	background:#72c02c;
+}
+.tab-content {
 	padding:7px 10px;
-	border-top:solid 2px #72c02c; 
+	border-top:solid 2px #72c02c;
 }
 
 /*Home Page "Options"
 ------------------------------------*/
 /*Right Sidebar*/
-.who li { 
+.who li {
 	margin-bottom:6px;
 }
-.who li i { 
-	color:#72c02c; 
-	position:relative; 
-	top:2px; 
-	margin-right:7px; 
+.who li i {
+	color:#72c02c;
+	position:relative;
+	top:2px;
+	margin-right:7px;
 	font-size:18px;
 }
-.who li:hover i, 
-.who li:hover a { 
+.who li:hover i,
+.who li:hover a {
 	color:#777;
 }
 .who li:hover a:hover {
@@ -767,7 +770,7 @@ blockquote:hover {
 /*Home Page "Options"
 ------------------------------------*/
 /*Service Blocks*/
-.service-alternative .service:hover { 
+.service-alternative .service:hover {
 	background:#76ca2c;
     -webkit-transition:all 0.4s ease-in-out;
     -moz-transition:all 0.4s ease-in-out;
@@ -776,13 +779,13 @@ blockquote:hover {
 }
 .service-alternative .service:hover i,
 .service-alternative .service:hover p,
-.service-alternative .service:hover h4 { 
+.service-alternative .service:hover h4 {
 	color:#fff;
 }
 
 /*About Page
 ------------------------------------*/
-.team ul { 
+.team ul {
 	text-align:right;
 }
 .team ul li {
@@ -811,7 +814,7 @@ blockquote:hover {
 	padding:12px;
 }
 .team .thumbnail-style small {
-	display:block; 
+	display:block;
 	font-size:12px;
 }
 .team .thumbnail-style h3 {
@@ -823,17 +826,17 @@ blockquote:hover {
 
 /*Icons Page
 ------------------------------------*/
-.icon-page li { 
-	color:#555; 
+.icon-page li {
+	color:#555;
 	margin:5px 0;
-	font-size:14px; 
-	font-family:Arial; 
+	font-size:14px;
+	font-family:Arial;
 }
-.icon-page li i { 
-	font-size:14px; 
+.icon-page li i {
+	font-size:14px;
 	margin-right:5px;
 }
-.icon-page li:hover { 
+.icon-page li:hover {
 	color:#72c02c;
 }
 
@@ -861,7 +864,7 @@ blockquote:hover {
 	line-height:normal;
 	font-weight:bold !important;
 }
-.pricing-head h3 span, 
+.pricing-head h3 span,
 .pricing-head h4 span {
 	display:block;
 	margin-top:5px;
@@ -899,7 +902,7 @@ blockquote:hover {
 	font-style:normal;
 	position:relative;
 }
-	
+
 /*Pricing Content*/
 .pricing-content li {
 	color:#888;
@@ -1062,13 +1065,13 @@ blockquote:hover {
 
 /*Clients Page
 ------------------------------------*/
-.clients-page { 
+.clients-page {
 	overflow:hidden;
 }
-.clients-page p { 
+.clients-page p {
 	overflow:auto;
 }
-.clients-page p a { 
+.clients-page p a {
 	overflow:auto;
 	text-decoration:underline;
 }
@@ -1076,7 +1079,7 @@ blockquote:hover {
 	display:block;
 	position:relative;
 }
-.clients-page img { 
+.clients-page img {
 	float:left;
 	margin-right:20px;
 	background:#fafafa;
@@ -1089,7 +1092,7 @@ blockquote:hover {
 }
 .clients-page a:hover img.img-colorful,
 .clients-page:hover img.img-colorful {
-	top:0; 
+	top:0;
 	left:0;
 	display:block;
 	position:absolute;
@@ -1120,12 +1123,12 @@ blockquote:hover {
 
 /*Portfolio Item Page
 ------------------------------------*/
-.portfolio-item h3 { 
+.portfolio-item h3 {
 	margin-top:0;
 }
 .portfolio-item li {
 	padding:3px 0;
-} 
+}
 .portfolio-item p a {
 	text-decoration:underline;
 }
@@ -1160,7 +1163,7 @@ blockquote:hover {
 .blog ul.blog-info {
 	border-top:solid 1px #eee;
 }
-.blog .blog-img { 
+.blog .blog-img {
 	margin:10px 0;
 }
 
@@ -1218,7 +1221,7 @@ ul.blog-tags a i {
 .blog-twitter p span {
 	color:#777;
 	display:block;
-	font-size:11px; 
+	font-size:11px;
 }
 .blog-twitter p a {
 	color:#72c02c;
@@ -1240,7 +1243,7 @@ ul.blog-tags a i {
 	position:relative;
 }
 .blog-item h4.media-heading span {
-	top:3px; 
+	top:3px;
 	right:0;
 	color:#777;
 	font-size:12px;
@@ -1253,7 +1256,7 @@ ul.blog-tags a i {
 /*Contact Page
 ------------------------------------*/
 .map {
-	width:100%; 
+	width:100%;
 	height:350px;
 	border-top:solid 1px #eee;
 	border-bottom:solid 1px #eee;
@@ -1293,7 +1296,7 @@ ul.blog-tags a i {
 	padding: 20px;
 	text-align: center;
 	margin-top: 20px;
-}  
+}
 
 .coming-soon-plugin {
 	min-height: 260px;
@@ -1317,9 +1320,9 @@ ul.blog-tags a i {
 }
 
 .coming-soon input {
-	box-shadow: none;	
-	-moz-box-shadow: none;	
-	-webkit-box-shadow: none;	
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 .coming-soon-copyright {
@@ -1367,12 +1370,12 @@ ul.blog-tags a i {
 .one-page .one-page-btn {
 	font-size: 20px !important;
 	padding-left: 30px !important;
-	padding-right: 30px !important;  
+	padding-right: 30px !important;
 	margin-bottom: 15px;
 }
 
 .one-page .btn-u {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 
 .one-page .one-default {
@@ -1486,13 +1489,13 @@ ul.blog-tags a i {
 }
 
 /*Background light-style*/
-.bg-light { 
-	padding:10px 15px; 
+.bg-light {
+	padding:10px 15px;
 	border-radius:3px;
-	margin-bottom:10px; 
-	background:#fcfcfc; 
+	margin-bottom:10px;
+	background:#fcfcfc;
 }
-.bg-light:hover { 
+.bg-light:hover {
 	padding:9px 14px;
 	border:solid 1px #e5e5e5;
 }
@@ -1502,8 +1505,8 @@ a.read-more {
 	font-weight:bold;
 	text-decoration:none;
 }
-a.read-more:hover { 
-	color:#72c02c; 
+a.read-more:hover {
+	color:#72c02c;
 	text-decoration:none;
 }
 
@@ -1539,16 +1542,16 @@ a.read-more:hover {
 }
 
 /*Spaces*/
-.margin-bottom-5, 
-.margin-bottom-10, 
-.margin-bottom-20, 
+.margin-bottom-5,
+.margin-bottom-10,
 .margin-bottom-20,
-.margin-bottom-25, 
-.margin-bottom-40, 
-.margin-bottom-50, 
-.margin-bottom-60 { 
+.margin-bottom-20,
+.margin-bottom-25,
+.margin-bottom-40,
+.margin-bottom-50,
+.margin-bottom-60 {
 	clear:both;
-}   
+}
 .margin-bottom-5 {
 	margin-bottom:5px;
 }
@@ -1824,7 +1827,7 @@ i.style-switcher-btn-option:hover {
 	background: #c00;
 	margin-right: 5px;
 	display: inline-block;
-	border: solid 1px #70747a; 
+	border: solid 1px #70747a;
 }
 
 .style-switcher li:hover,
