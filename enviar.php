@@ -1,7 +1,7 @@
 <?php
 
 $Nombre = $_POST['nombre'];
-$email = $_POST['email'];
+$Email = $_POST['email'];
 $celular = $_POST['fono'];
 
 $header = 'From: ' . $Email . " \r\n";
@@ -10,7 +10,7 @@ $header .= "Mime-Version: 1.0 \r\n";
 $header .= "Content-Type: text/plain";
 
 $mensaje = "Este mensaje fue enviado por " . $Nombre . ", y su Telefono es " . $celular . " \r\n";
-$mensaje .= "Su e-mail es: " . $email . " \r\n";
+$mensaje .= "Su e-mail es: " . $Email . " \r\n";
 $mensaje .= "Mensaje: " . $_POST['mensaje'] . " \r\n";
 $mensaje .= "Enviado el " . date("d/m/y \a \l\a\s H:i:s ");
 
