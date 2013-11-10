@@ -1,3 +1,5 @@
+console.log('hola desde brackets');
+
 var App = function () {
 
     function handleIEFixes() {
