@@ -1,4 +1,4 @@
-console.log('hola desde brackets');
+console.log('Sitio Creado por Zetalabs Chile. hola@zetalabs.cl');
 
 var App = function () {
 
