@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ro",
+				"route"
+			],
+			[
 				"mo",
 				"moviendopersonasycarga"
 			],
@@ -35,7 +39,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20656,
+				"buffer_size": 20797,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +87,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 374.0,
 		"selected_items":
 		[
 			[
@@ -103,7 +107,7 @@
 				"Fetch: Package"
 			]
 		],
-		"width": 588.0
+		"width": 570.0
 	},
 	"console":
 	{
@@ -120,6 +124,7 @@
 	},
 	"file_history":
 	[
+		"/Users/reyz/Desktop/mikecao-flight-v1.1-4-g5414b90.tar/mikecao-flight-5414b90/index.php",
 		"/Users/reyz/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/reyz/Google Drive/MAMP/htdocs/moviendopersonas/enviar.php",
 		"/Users/reyz/Google Drive/MAMP/htdocs/moviendopersonas/assets/js/pages/contact.js",
@@ -211,7 +216,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -219,15 +224,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 20656,
+						"buffer_size": 20797,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1868,
-								1868
+								12187,
+								12187
 							]
 						],
 						"settings":
@@ -385,7 +390,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 842.0,
+						"translation.y": 6703.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
