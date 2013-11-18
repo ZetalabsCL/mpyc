@@ -1,5 +1,3 @@
-console.log('Sitio Creado por Zetalabs Chile. hola@zetalabs.cl');
-
 var App = function () {
 
     function handleIEFixes() {

@@ -212,8 +212,9 @@ Sequence.js and its dependencies are (c) Ian Lunn Design 2012 unless otherwise s
 }
 
 /* !Keyframes */
+
 #sequence-theme {
-  background: white;
+  background: url('../../../img/bg.jpg');
   height: 500px;
   overflow: hidden;
   position: relative;
