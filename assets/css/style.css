@@ -6,6 +6,26 @@ Author: Html Stream
 Website: http://htmlstream.com/preview/unify
 */
 
+/*Comillas en las citas de texto*/
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #72C02C;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display inline;
+}
 /*Import Google Fonts*/
 
 
@@ -868,13 +888,13 @@ blockquote:hover {
 .pricing-head h4 span {
 	display:block;
 	margin-top:5px;
-	font-size:12px;
+	font-size:8px;
 	font-style:italic;
 }
 .pricing-head h3 {
 	color:#fafafa;
 	padding:12px 0;
-	font-size:35px;
+	font-size:22px;
 	font-family:Arial;
 	background:#55c931;
 	border-radius:3px 3px 0 0;
