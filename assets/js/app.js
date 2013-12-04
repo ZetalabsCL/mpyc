@@ -111,7 +111,6 @@ var App = function () {
                 slideMargin: 10
             });
         },
-
         initBxSlider1: function () {
             $('.bxslider').bxSlider({
                 minSlides: 4,
